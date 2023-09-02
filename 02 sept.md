@@ -12,3 +12,4 @@
 - Gained basic understanding of KVM
 - Created a VM using Ubuntu 23.04 iso image - followed steps from [Server-World](https://www.server-world.info/en/note?os=Ubuntu_23.04&p=kvm&f=1)
 - Learnt how to remove a value from a slice using this [tutorial](https://www.youtube.com/watch?v=931nR5TGCAk&list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&index=15&pp=iAQB)
+- 
