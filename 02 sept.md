@@ -43,7 +43,7 @@ scp -r (recursively/This flag is necessary when you want to copy entire director
    62  sudo tar -xvf go/go1.20.2.linux-amd64.tar.gz
 
 
-  adding etcdctl
+  adding etcd
 - Also worked on understanding systemctl and what it does
 
 -   74  mkdir temp
