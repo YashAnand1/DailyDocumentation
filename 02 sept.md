@@ -16,12 +16,15 @@
 - SSH'd using:
 ```
 sudo apt install ssh
-sudo apt openssh-server
-systemctl start sshd.service
-systemctl status sshd.service
-ssh username@remote_server_ip
-scp -P 1234 username@remote_server_ip:/PATH/TO/FILE ./ //for remote to local
-scp -P 1234 /PATH/TO/FILE username@remote_server_ip:~/ // for local to remote
+sudo apt install openssh-server
+systemctl start ssh
+systemctl status ssh
+systemctl enable ssh
+ssh yashanand@192.168.122.128
+Entered VM's IP and then password after saying yes i want to continue connecting.
+scp -r /home/user/yes1/yes1/etcd-inventory yashanand@192.168.122.128:/home/yashanand/ //local to remote
+scp -r (recursively/This flag is necessary when you want to copy entire directories and all their contents to the specified destination.) <file path on local> <remoteuser@remoteip>:pathwherecontenttobesaved
 ```
-- faced issue with `Failed to start sshd.service: Unit sshd.service not found.` - because was not asked to in the article
+- faced issue with `Failed to start sshd.service: Unit sshd.service not found.` after running systemctl status sshd.service - because was not asked to in the article. even after installing openssh-server, faced same issue. Used systemctl status ssh and was shown ssh.service was
+- `ssh.service - OpenBSD Secure Shell server  Loaded: loaded (/lib/systemd/system/ssh.service; disabled` displayed - solved using `sudo systemctl enable ssh`
 - Also worked on understanding systemctl and what it does
