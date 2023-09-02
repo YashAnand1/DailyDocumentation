@@ -1,0 +1,11 @@
+# Daily Updates
+## 02 SEPTEMBER, 2023
+## Reached Office: 9:10AM
+
+# Tasks performed:
+- ADDED "Please enter correct key" if wrong key is entered in the get code.
+- Learnt that we cannot assign nil to strings - have to use ""
+- Implemented strings.ToUpper in create.go
+- Meeting with Anoop Sir in morning - Discussed the XLSX Sheet & create.go code
+- - create a vm, where the server program (etcd-inventory) will be running, connect with it from host where the client program (itldims) will be. Remove etcd data from client machine. config file to be create for client program, which will be containing content such as ip address. 
+- - create specific sheets for deployment - kubectl output should not be mimicked and should only be similar in the form of displayed output as existing sheet needs to provide more information. 
