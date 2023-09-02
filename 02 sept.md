@@ -27,4 +27,37 @@ scp -r (recursively/This flag is necessary when you want to copy entire director
 ```
 - faced issue with `Failed to start sshd.service: Unit sshd.service not found.` after running systemctl status sshd.service - because was not asked to in the article. even after installing openssh-server, faced same issue. Used systemctl status ssh and was shown ssh.service was
 - `ssh.service - OpenBSD Secure Shell server  Loaded: loaded (/lib/systemd/system/ssh.service; disabled` displayed - solved using `sudo systemctl enable ssh`
+
+- installed golang and etcd on the server
+- adding golang
+-   52  sudo apt-get -y upgrade
+   53  mkdir temp
+   54  cd temp ( to the folder you created in previous step)
+   55  wget https://dl.google.com/go/go1.20.2.linux-amd64.tar.gz
+   56  nano ~/.bashrc
+   57  source ~/.profile
+   58  go version
+   59  sudo tar -xvf go1.21.linux-amd64.tar.gz
+   60  sudo mv go /usr/local
+   61  sudo tar -xvf go1.20.1.linux-amd64.tar.gz
+   62  sudo tar -xvf go/go1.20.2.linux-amd64.tar.gz
+
+
+  adding etcdctl
 - Also worked on understanding systemctl and what it does
+
+-   74  mkdir temp
+   75  cd tempwget https://dl.google.com/go/go1.21.linux-amd64.tar.gz
+   76  cd temp
+   77  wget https://dl.google.com/go/go1.20.linux-amd64.tar.gz
+   78  ld
+   79  ls
+   80  sudo tar -xvf go1.20.linux-amd64.tar.gz
+   81  sudo mv go /usr/local
+   82  ls
+   83  cd ..
+   84  nano ~/.bashrc
+   85  source ~/.bashrc
+
+
+
