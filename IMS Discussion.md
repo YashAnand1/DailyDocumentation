@@ -7,9 +7,9 @@
 - Requirements Document | [LINK](https://docs.google.com/document/d/1kqVSy1tVPH7XL-YVOuwbdmF2fAnJldYFF-MBTGYnDTE/edit)
 
 # Minutes
-    Discussed Excel: Explained server information.
-    Address Format: Emphasized that IP addresses should be in the format "IP address:port" to accommodate multiple APIs running on the same address.
-    Tree Format: Considered implementing a tree format for data presentation.
+Discussed Excel: Explained server information.
+Address Format: Emphasized that IP addresses should be in the format "IP address:port" to accommodate multiple APIs running on the same address.
+Tree Format: Considered implementing a tree format for data presentation.
     Program Parts: Mentioned two program parts - IMS and IMS Server.
     File Upload: Demonstrated the usage of "ims UPLOAD etcd.xlsx" for uploading sheet data.
     Key Retrieval: Explained that "ims get keys" lists all keys.
