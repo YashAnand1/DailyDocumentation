@@ -19,6 +19,7 @@
   -  `ims delete anoop/xyz/key` for deleting keys-value pair
   -  `ims all` for retrieval of all data
 - Output is saved in "output.txt" for CLI searches
+- Login, Password, URL added to the .conf file
 
 ### Amit Sir
 - What if accidentally, all data is deleted with ims delete
