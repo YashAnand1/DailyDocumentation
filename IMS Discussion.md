@@ -7,7 +7,7 @@
 - Requirements Document | [LINK](https://docs.google.com/document/d/1kqVSy1tVPH7XL-YVOuwbdmF2fAnJldYFF-MBTGYnDTE/edit)
 
 # Inputs
-Anoop Sir's Inputs:
+Anoop Sir:
 - Explained server information
 - Explained two programs - IMS and IMS-Server
 - Demonstrated the usage of :
@@ -20,18 +20,19 @@ Anoop Sir's Inputs:
   -  `ims all` for retrieval of all data
 - Output is saved in "output.txt" for CLI searches
 
-Amit Sir's Inputs:
+Amit Sir:
 - What if accidentally, all data is deleted with ims delete
-- Will be asking Ravi Sir to share Kubernetes outputs in video format 
+- Will be asking Ravi Sir to share Kubernetes outputs in video format
+- Said that he had found E-Transport related data for helping the data of the sheet
 
-Varad Sir's Inputs:
+Varad Sir:
 - Hierarchy starts from DC DR in the Requirement document - In kubernetes it starts from Namespace
-- IP addresses should be in the format "IP address:port" to accommodate multiple APIs running on the same addre
-- Should be able to convert data to YAML or JSON format using the "-o" option
-- Proposed the option to get output in YAML or JSON format instead of txt
-- Discussed limiting the number of ETCD nodes from 5 to 1 for specific roles in the nodes tab
+- IP addresses should be in the format "IP address:port" to accommodate multiple APIs running on the same address
+- Suggested converting data to YAML or JSON format using the "-o" option
+- Add option to get output in YAML or JSON format instead of .txt
+- Change number of ETCD nodes from 5 to 1 for specific roles in the nodes tab
 - Per analogy, physical or virtual machines are nodes
-- Getting nodes from the "DR" namespace using "ims get nodes" to display relevant host information
-- Emphasized the importance of OS over version in the Spreadsheet
-- Noted the presence of clustered applications in the main sheet, agreed with Amit Sir to have Ravi Sir share Kubernetes commands and their outputs in a video format
+- Should be able to get nodes from `DR` using `ims get nodes` to display relevant host information
+- Replace version with OS in the Spreadsheet
+- Asked about clustered applications in the main sheet - agreed with Amit Sir to have Ravi Sir share Kubernetes commands and outputs
 - On monday, will be connecting the analogies with the kubernetes commands according to the Requirements document
