@@ -12,12 +12,12 @@ Anoop Sir's Inputs:
 - Explained two programs - IMS and IMS-Server
 - Demonstrated the usage of :
 - - `ims UPLOAD etcd.xlsx` for uploading sheet data //(For uploading sheets, `ims upload api.xlsx` too)
-- -`ims get key` for listing all keys
-- Handling Incomplete Keys can be done //(`ims get 10.249.221.22`
-- Handling only values can be done //(`ims GET 32GB`
-- Handling key creation can be done //(`ims create -k anoop/xyz/key -v somevalue`
-- Handling key deletion can be done //(`ims delete anoop/xyz/key`)
-- Handling retrieval of all data can be done //(`ims all done`)
+- - `ims get key` for listing all keys
+- -  `ims get 10.249.221.22` or `ims get <IP>` for finding data of incomplete Keys
+  -  `ims GET 32GB` or `ims get <value>` for finding server information from values
+  -  `ims create -k anoop/xyz/key -v somevalue` for creating key-value pair
+  -  `ims delete anoop/xyz/key` for deleting keys-value pair
+  -  `ims all` for retrieval of all data
 - Output is saved in "output.txt" for CLI searches
 
 Amit Sir's Inputs:
