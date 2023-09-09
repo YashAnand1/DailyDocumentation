@@ -7,7 +7,7 @@
 - Requirements Document | [LINK](https://docs.google.com/document/d/1kqVSy1tVPH7XL-YVOuwbdmF2fAnJldYFF-MBTGYnDTE/edit)
 
 # Inputs
-Anoop Sir:
+### Anoop Sir
 - Explained server information
 - Explained two programs - IMS and IMS-Server
 - Demonstrated the usage of :
@@ -20,12 +20,12 @@ Anoop Sir:
   -  `ims all` for retrieval of all data
 - Output is saved in "output.txt" for CLI searches
 
-Amit Sir:
+### Amit Sir
 - What if accidentally, all data is deleted with ims delete
 - Will be asking Ravi Sir to share Kubernetes outputs in video format
 - Said that he had found E-Transport related data for helping the data of the sheet
 
-Varad Sir:
+### Varad Sir:
 - Hierarchy starts from DC DR in the Requirement document - In kubernetes it starts from Namespace
 - IP addresses should be in the format "IP address:port" to accommodate multiple APIs running on the same address
 - Suggested converting data to YAML or JSON format using the "-o" option
