@@ -25,11 +25,10 @@
 Varad Sir's Inputs:
 - Hierarchy starts from DC DR in the Requirement document - In kubernetes it starts from Namespace
 - Should be able to convert data to YAML or JSON format using the "-o" option
-- Suggested allowing data uploads from JSON
-- Proposed the option to get output in YAML or JSON format
-- Discussed limiting the number of ETCD nodes to 5-6 for specific roles
-- Introduced the analogy that physical or virtual machines are considered nodes
-- Discussed retrieving nodes from the "DR" namespace using "ims get nodes" and displaying relevant host information
-- Emphasized the importance of OS over version in node information
-- Noted the presence of clustered applications in the main sheet
+- Proposed the option to get output in YAML or JSON format //(kubectl get allows such output as well)
+- Discussed limiting the number of ETCD nodes from 5 to 1 for specific roles in the nodes tab
+- Per analogy, physical or virtual machines are nodes
+- Getting nodes from the "DR" namespace using "ims get nodes" to display relevant host information
+- Emphasized the importance of OS over version in the Spreadsheet
+- Noted the presence of clustered applications in the main sheet, agreed with Amit Sir to for creating
 - Mentioned that Kubernetes commands and their outputs will be provided in video format
