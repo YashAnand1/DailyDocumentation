@@ -1,4 +1,4 @@
-0# MOM: Inventory Management System
+# MOM: Inventory Management System
 ## 09 SEPTEMBER, 2023
 ## 3:00 PM - 3:46 PM
 
