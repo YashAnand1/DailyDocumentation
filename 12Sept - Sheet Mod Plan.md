@@ -1,4 +1,4 @@
-| Resources      | Analogy                                        | Included Attributes/Remarks                   |
+<center> | Resources      | Analogy                                        | Included Attributes/Remarks                   |
 |----------------|------------------------------------------------|---------------------------------------------|
 | Clusters       | Client Org NAME                              |                     -                       |
 | Namespace      | dc(/DR?) + ENVIRONMENT | Hierarchy starts here - Varad sir // from analogies mail |       |
@@ -14,3 +14,4 @@
 | PV             | Total storage                                  | RWO/RWX - SAN Volume/NAS Volumes            |
 | PVC            | Individual Application Shared Storage          | RWO/RWX - SAN Volume/NAS Volumes            |
 | Ingress        | Incoming LBs + HAProxy                         |                      -                       |
+</center>
