@@ -3,7 +3,7 @@
 | Resources      | Analogy                                        | Included Attributes/Remarks                   |
 |----------------|------------------------------------------------|---------------------------------------------|
 | Clusters       | Client Org NAME -                             |                   -                          |
-| Namespace      | dc(/DR?) AND ENVIRONMENT Hierarchy starts here - Varad sir // from analogies mail |       |
+| Namespace      | dc(/DR?) AND ENVIRONMENT | Hierarchy starts here - Varad sir // from analogies mail      |
 | Deployments    | Application name                               | Client Applications - e.g. Vahan, Sarathi  |
 | Pods           | Client applications of Deployment applications | Sarathi Client Application - e.g. SarathiService, NewDL, RenewDL, DBServer |
 | Containers     | Further details of client applications         | e.g. SarathiService runs on Tomcat 9, includes db images // from analogies mail |
